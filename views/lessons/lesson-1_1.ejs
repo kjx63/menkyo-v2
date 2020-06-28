@@ -1,0 +1,60 @@
+<%- include('../partials/header.ejs')%>
+<!-- hero section -->
+<div class="hero is-primary">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">技能試験に一発で受かるためのポイント集🚗📚</h1>
+      <h2 class="subtitle"></h2>
+    </div>
+  </div>
+</div>
+
+<!-- main section -->
+<nav class="level">
+  <div class="level-left">
+    <a href="/"> ホーム </a>＞<a href="/lessons"> 一発合格ポイント集 </a>
+  </div>
+</nav>
+<main class="columns">
+  <div class="column">
+    <div class="tile is-ancestor">
+      <div class="tile is-parent lessons left-sidemenu">
+        <!-- Left sidemenu -->
+        <%- include('../partials/left-sidemenu.ejs') %>
+      </div>
+      <div class="tile is-parent is-9" style="margin: auto 18px;">
+        <article class="tile is-child">
+          <p class="title">1-1. 乗車前の周囲確認</p>
+          <div class="content">
+            <article class="media">
+              <div class="media-content">
+                <class class="content">
+                  <iframe style="margin-bottom: 20px;" width="560" height="315"
+                    src="https://www.youtube.com/embed/UIPGXF0G_vA" frameborder="0"
+                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
+                  <div style="margin-bottom: 30px;">
+                    <h4 style="text-decoration: underline;">ⅰ. 車の周囲を歩いて確認</h4>
+                    <h6 style="margin-bottom: 2px;">
+                      車の後ろから、反時計回りに後ろ→左→前→右の順に歩きながら車の下部やタイヤを素早く、しかし確実に目で確認。</h6>
+                    <h6>特に、<span style="color: red;">車の後ろおよび前</span>は、しっかり膝を曲げて車の下をしっかり覗き込むように確認</h6>
+                  </div>
+                  <div style="margin-bottom: 30px;">
+                    <h4 style="text-decoration: underline;">ⅱ. 車の前後の確認</h4>
+                    <h6 style="margin-bottom: 2px;">車の後ろから一周回ってきて運転席側のドアに手をかけたら、ドアを開ける前に<span
+                        style="color: red;">前後を確認してから</span>車に乗り込む</h6>
+                  </div>
+              </div>
+          </div>
+        </article>
+      </div>
+      </article>
+    </div>
+  </div>
+  </div>
+  <div class="right-sidemenu column is-3 center">
+    <%- include('../partials/right-sidemenu.ejs')%>
+  </div>
+</main>
+<!-- footer section -->
+<%- include('../partials/footer.ejs')%>

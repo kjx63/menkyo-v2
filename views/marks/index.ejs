@@ -1,0 +1,44 @@
+<%- include('../partials/header.ejs')%>
+<!-- hero section -->
+<div class="hero is-primary">
+  <div class="hero-body">
+    <div class="container">
+      <h1 class="title">届出自動車学校一覧🚙🏫</h1>
+      <h2 class="subtitle"></h2>
+    </div>
+  </div>
+</div>
+
+<!-- main section -->
+<nav class="level">
+  <div class="level-left">
+    <a href="/"> ホーム </a>＞<a href="/marks">技能試験(修了検定)限定ポイント集 </a>
+  </div>
+</nav>
+<main class="columns">
+  <div class="column">
+    <div class="tile is-ancestor">
+      <div class="tile is-parent">
+        <article class="tile is-child">
+          <!-- Nothing here -->
+        </article>
+      </div>
+      <div class="tile is-parent is-10">
+        <article class="tile is-child">
+          <p class="title">技能試験(修了検定)減点ポイント集</p>
+          <p class="subtitle">Some Text Here</p>
+          <div>
+            <p>⬇引用元はコチラ⬇</p>
+            <a
+              href="https://www.npa.go.jp/laws/notification/koutuu/menkyo/menkyo20190919_r089.pdf">運転免許技能試験に係る採点基準の運用の標準について（通達）</a>
+          </div>
+        </article>
+      </div>
+    </div>
+  </div>
+  <asides class="right-sidemenu column is-3 center">
+    <%- include('../partials/right-sidemenu.ejs')%>
+  </asides>
+</main>
+<!-- footer section -->
+<%- include('../partials/footer.ejs')%>
